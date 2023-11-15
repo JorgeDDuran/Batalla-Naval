@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #85cad356;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #0e5a89;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+h1 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-style: italic;
+  background-color: #0e5a89;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #85cad3f8;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.cinta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.celda {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  color: transparent;
+  transition: background-color 0.3s;
+}
+
+/* Estilo para celdas con agua */
+.agua {
+  background-color: #99ccff;
+}
+
+/* Estilo para la posición inicial de la Máquina de Turing */
+.posicion-inicial {
+  background-color: red;
+  color: white;
+}
+
+/* Estilo para celdas con barco */
+.barco {
+  background-color: #333;
+}
+
+/* Estilo para celdas disparadas */
+.disparada {
+  background-color: #f00;
+}
+
+/* Estilo para celdas marcadas (celdas con barco que no se borran) */
+.marcada {
+  background-color: green;
+  color: white;
+}
+
+/* Estilo para celdas de barcos destruidos */
+.barco-destruido {
+  background-color: gray;
+  color: transparent;
+}
+
+/* Estilo para la posición del jugador */
+.jugador {
+  background-color: yellow;
+}
+
+/* Estilo para celdas visitadas */
+.visitada {
+  pointer-events: none; /* Bloquea eventos del ratón en celdas visitadas */
+  background-color: lightgray;
+}
+
+
+
+

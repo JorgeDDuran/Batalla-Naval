@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalla Naval con Máquina de Turing</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Batalla Naval</h1>
+    </header>
+    <main>     
+        </div>
+        <div id="controles">
+            <h2>Instrucciones del Juego</h2>
+
+            <div id="instrucciones-juego" style="color:blue">
+                <p>Iniciar el juego: Abre el juego en tu navegador, dentro de la cinta que vas a visualizar hay una amarilla esta es tu posicion inicial que es aleatoria cada vez que vayas a jugar.</p>
+                <p>Instrucciones de movimiento: En el campo de entrada de instrucciones, puedes ingresar comandos para mover la Máquina de Turing. Las instrucciones básicas son "R" (derecha) y "L" (izquierda), seguidas del número de pasos. Por ejemplo, "R3" significa moverse hacia la derecha tres celdas.</p>
+                <p>Mover la Máquina de Turing: Haz clic en el botón "Mover Máquina de Turing" después de ingresar tus instrucciones. La Máquina de Turing se moverá según las instrucciones que ingresaste. Observa cómo se desplaza a lo largo de la cinta.</p>
+                <p>Destruir barcos: A medida que te mueves, la Máquina de Turing verificará si hay barcos en las celdas a las que te desplazas. Si hay un barco, lo destruirá y marcará la celda de color negro.</p>
+                <p>Mensajes de progreso: se notifica debajo de la cinta.</p>
+                <p>Objetivo del juego: El objetivo del juego es destruir todos los barcos en la cinta. Hay tres barcos en total: uno de 4 celdas, uno de 3 celdas y uno de 2 celdas. Cada vez que destruyas un barco, recibirás un mensaje de progreso. Si destruyes los tres barcos, ganarás el juego.</p>
+                <p>Reiniciar el juego: Si deseas reiniciar el juego, reinicia la pestaña.</p>
+            </div>
+
+            <h2>Ingresa las instrucciones para mover la Máquina de Turing:</h2>
+            <input type="text" id="instrucciones" placeholder="Ejemplo: R5, L3">
+            <button onclick="moverTuringMachine()" style="color: blue;">Mover Máquina de Turing</button>
+            <p></p>
+            <div id="cinta" class="cinta"></div>
+            
+        </div>
+        
+        <div id="mensaje"><p></p></div>
+    </main>
+    <footer>
+        <h4>&copy; Lenguajes y Automatas------------Adrian Fernando Alonso------------Cristian Felipe Gonzalez------------Jorge David Duran--------</h4>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
+
+
+
+
